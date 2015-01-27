@@ -1,0 +1,121 @@
+[class*='iconsp-'] {
+  background: url("img/icon-sprite-v2.png") no-repeat;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+}
+
+.iconsp-testStack {
+  background-position: 0 0;
+}
+
+.iconsp-loadStack {
+  background-position: -180px 0;
+}
+
+.iconsp-monitorStack {
+  background-position: -240px 0;
+}
+
+.iconsp-postStack {
+  background-position: -120px 0;
+}
+
+.iconsp-toolStack {
+  background-position: -60px 0;
+}
+
+.icon-wrapper {
+  position: relative;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  top: 30%;
+  left: 45%;
+}
+
+.content-icon {
+  width: 65%;
+  display: inline-block;
+  top: 32%;
+  position: absolute;
+  left: 30%;
+  font-family: 'Calibri';
+  font-size: 21px;
+  line-height: 100%;
+  overflow: hidden;
+}
+
+.content-icon ul {
+  padding: 0;
+  margin: 0;
+}
+
+.content-icon ul li {
+  list-style: none;
+  opacity: 0;
+}
+
+.content-icon p {
+  font-size: 14px;
+  font-family: "Calibri", georgia, serif;
+  text-align: center;
+}
+
+.center-icon {
+  position: relative;
+  z-index: 2;
+}
+
+.content-icon h2 {
+  color: #000;
+  font-size: 42px;
+  text-shadow: 1px 1px 2px #000;
+  line-height: 100%;
+  margin: 0;
+  word-break: break-all;
+}
+
+.icon-wrapper [class*='iconsp-'] {
+  position: absolute;
+}
+
+.icon-frame {
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+  height: 300px;
+
+}
+
+.content-icon .effect-text {
+  color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .icon-frame {
+    width: 100%;
+  }
+  .content-icon {
+    width: 55%;
+    left: 40%;
+  }
+}
+@media screen and (max-width: 600px) {
+
+  .content-icon {
+    position: relative;
+    left: 0;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .icon-wrapper {
+    top:20%;
+  }
+  .icon-frame{
+    height: 525px;
+  }
+}
