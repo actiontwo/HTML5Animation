@@ -56,6 +56,9 @@
 
 .content-icon ul li {
   list-style: none;
+
+  width :100%;
+
   opacity: 0;
 }
 
@@ -99,11 +102,13 @@
   .icon-frame {
     width: 100%;
   }
+
   .content-icon {
     width: 55%;
     left: 40%;
   }
 }
+
 @media screen and (max-width: 600px) {
 
   .content-icon {
@@ -112,10 +117,12 @@
     width: 100%;
     margin-top: 30px;
   }
+
   .icon-wrapper {
-    top:20%;
+    top: 20%;
   }
-  .icon-frame{
+
+  .icon-frame {
     height: 525px;
   }
 }
